@@ -54,12 +54,12 @@ TwitterUserモデル・Tweetモデル・TweetCountモデルの作成or更新を�
 
 # 開発環境
 ```
-フレームワーク：Django
-フロントエンド：Haml,SCSS
-データベース：MySQL
-インフラ：AWS(Route53, ELB, EC2, RDS, CloudFormation, CloudWatch)
-構成管理：Ansible
-バージョン管理：Github
+フレームワーク ： Django
+フロントエンド ： Haml,SCSS
+データベース　 ： MySQL
+インフラ      ： AWS(Route53, ELB, EC2, RDS, CloudFormation, CloudWatch)
+構成管理      ： Ansible
+バージョン管理 ： Github
 ```
 
 
@@ -69,6 +69,6 @@ TwitterUserモデル・Tweetモデル・TweetCountモデルの作成or更新を�
 　本アプリはポートフォリオとして作成しているため、Basic認証を追加しております。  
 　ID、PASSについては以下の通りです。  
 ```
-ID： Admin  
+ID  ： Admin  
 PASS： Zaq12wsx
 ```
