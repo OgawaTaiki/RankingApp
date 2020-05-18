@@ -33,7 +33,7 @@ $ python3 manage.py scraping --drama
 ```
 
 - **TwetterAPIを利用してツイート情報の取得機能**  
-　TwitterApiに対して、Timelineの情報を取得または更新するよう設定しています。  
+　TwitterAPIに対して、Timelineの情報を取得または更新するよう設定しています。  
 　過去にTwitterAPIから情報を取得し保存している場合は、更新をするように設定しています。  
 　以下のコマンドで情報を取得できます。  
 　本番環境では、このコマンドをcron等で定期実行することで、定期的に新しい情報を取得できるようにしています。
@@ -57,15 +57,17 @@ TwitterUserモデル・Tweetモデル・TweetCountモデルの作成or更新を�
 フレームワーク：Django
 フロントエンド：Haml,SCSS
 データベース：MySQL
-インフラ：AWS(ELB, EC2, RDS, CloudFormation)
+インフラ：AWS(Route53,ELB, EC2, RDS, CloudFormation, CloudWatch)
 構成管理：Ansible
 バージョン管理：Github
 ```
 
 
-# 注意
+# リンク
+#### [ランキングサイト](http://ranking.kyosuke-karakara.work/)  
 ＊Basic認証について  
-本アプリはポートフォリオとして作成しているため、Basic認証を追加しております。ID、PASSについては以下の通りです。  
+　本アプリはポートフォリオとして作成しているため、Basic認証を追加しております。  
+　ID、PASSについては以下の通りです。  
 ```
 ID： Admin  
 PASS： Zaq12wsx
