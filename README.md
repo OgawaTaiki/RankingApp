@@ -18,7 +18,7 @@ TwitterAPIを使用して各週で放送されるドラマやアニメのラン�
 # 実装した機能について
 ### 【作品情報の自動取得機能】  
 
-- **スクレイピング機能（BeautifulSoup使用）**  
+**スクレイピング機能（BeautifulSoup使用）**  
 　3つのサイトから情報をとり、保存できるように設定しています。  
 　スクレイピングは以下のコマンドで実行します。
 
@@ -32,7 +32,7 @@ $ python3 manage.py scraping --anime
 $ python3 manage.py scraping --drama
 ```
 
-- **TwetterAPIを利用してツイート情報の取得機能**  
+**TwetterAPIを利用してツイート情報の取得機能**  
 　TwitterApiに対して、Timelineの情報を取得または更新するよう設定しています。  
 　過去にTwitterAPIから情報を取得し保存している場合は、更新をするように設定しています。  
 　以下のコマンドで情報を取得できます。  
