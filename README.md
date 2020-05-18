@@ -57,7 +57,7 @@ TwitterUserモデル・Tweetモデル・TweetCountモデルの作成or更新を�
 フレームワーク：Django
 フロントエンド：Haml,SCSS
 データベース：MySQL
-インフラ：AWS(Route53,ELB, EC2, RDS, CloudFormation, CloudWatch)
+インフラ：AWS(Route53, ELB, EC2, RDS, CloudFormation, CloudWatch)
 構成管理：Ansible
 バージョン管理：Github
 ```
