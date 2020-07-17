@@ -61,14 +61,3 @@ TwitterUserモデル・Tweetモデル・TweetCountモデルの作成or更新を�
 構成管理：Ansible
 バージョン管理：Github
 ```
-
-
-# リンク
-#### [ランキングサイト](http://ranking.kyosuke-karakara.work/)  
-＊Basic認証について  
-　本アプリはポートフォリオとして作成しているため、Basic認証を追加しております。  
-　ID、PASSについては以下の通りです。  
-```
-ID： Admin  
-PASS： Zaq12wsx
-```
